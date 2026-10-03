@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { AuthContextProvider } from "./context/AuthContext.tsx";
 import { SocketContextProvider } from "./context/SocketContext.tsx";
 import { Toaster } from "sonner";
-import App from "./App.jsx";
+import App from "./App.js";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
